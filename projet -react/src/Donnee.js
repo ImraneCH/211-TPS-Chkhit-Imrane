@@ -11,22 +11,26 @@ export const profile = {
 
 export const posts = [
     {
-        image : "https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/beautiful-game-500.jpg",
+        id : 1,
+        image : "https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/psychopomp-500.jpg",
         titre : "Psychopomp",
         description : "Japanese Breakfast"
     },
     {
+        id :2,
         image : "https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/lets-go-500.jpg",
         titre : "let's go",
-        descrption : "In Love With A Ghost"
+        description : "In Love With A Ghost"
     },
   
     {
-        image : "https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/lets-go-500.jpg",
+        id :3,
+        image : "https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/beautiful-game-500.jpg",
         titre : "The Beautiful Game",
-        descrption : "Vulfpeck"
+        description : "Vulfpeck"
     },
     {
+        id :4,
         image : "https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/jane-doe-500.jpg",
         titre : "Jane Doe",
         description : "Converge"
