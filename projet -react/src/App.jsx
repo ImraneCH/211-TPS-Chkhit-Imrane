@@ -9,11 +9,11 @@ function App() {
 
 
   return (
-    <>     
+    <div className="background" >
       <Header />
       <MainSection/>
       <Footer />
-    </>
+    </div> 
   )
 }
 
