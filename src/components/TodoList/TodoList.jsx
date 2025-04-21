@@ -1,0 +1,17 @@
+import Todo from "./Todo";
+  import "./TodoList.css";
+  
+  export default function TodoList({ todos, onToggle, onDelete }) {
+	return (
+	  <ul className="todo-list">
+		{todos.map(todo => (
+		  <Todo
+			key={todo.id}
+			todo={todo}
+			onToggle={onToggle}
+			onDelete={onDelete}
+		  />
+		))}
+	  </ul>
+	);
+  }
